@@ -1235,6 +1235,342 @@
     core:hasTag "Apiculture"@en,
         "Quality"@en .
 
+<http://example.org/opportunity/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf_c22_0> a core:Opportunity ;
+    rdfs:label "Project 210 of the Walloon Recovery Plan"@en,
+        "Projet 210 du Plan de relance wallon"@fr ;
+    core:definedBy <http://example.org/doc/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf> ;
+    core:description "Modernisation des abattoirs pour répondre aux besoins des filières et assurer le respect des normes, notamment le bien-être animal."@en ;
+    core:hasTag "Abattoirs"@en,
+        "Animal Welfare"@en,
+        "Investment"@en .
+
+<http://example.org/opportunity/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf_c22_1> a core:Opportunity ;
+    rdfs:label "Project 212 Recovery Plan"@en,
+        "Projet 212 Plan de relance"@fr ;
+    core:definedBy <http://example.org/doc/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf> ;
+    core:description "Soutenir et amplifier l'accompagnement des cantines durables."@en ;
+    core:hasTag "Sustainable Canteens"@en .
+
+<http://example.org/opportunity/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf_c22_2> a core:Opportunity ;
+    rdfs:label "Project 213 Recovery Plan"@en,
+        "Projet 213 Plan de relance"@fr ;
+    core:definedBy <http://example.org/doc/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf> ;
+    core:description "Amplifier la sensibilisation des collectivités aux sources d’approvisionnement locales et durables."@en ;
+    core:hasTag "Local Sourcing"@en,
+        "Sustainable"@en .
+
+<http://example.org/opportunity/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf_c22_3> a core:Opportunity ;
+    rdfs:label "Project 470 Recovery Plan"@en,
+        "Projet 470 Plan de relance"@fr ;
+    core:definedBy <http://example.org/doc/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf> ;
+    core:description "Développer une approche favorisant la prévention des déchets professionnels et le réemploi des matériaux, incluant actions contre le gaspillage alimentaire."@en ;
+    core:hasTag "Food Waste"@en,
+        "Waste Prevention"@en .
+
+<http://example.org/opportunity/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf_c22_4> a core:Opportunity ;
+    rdfs:label "Project 171 Recovery Plan"@en,
+        "Projet 171 Plan de relance"@fr ;
+    core:definedBy <http://example.org/doc/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf> ;
+    core:description "Réduire les pertes et le gaspillage alimentaire, soutenir l’encadrement des agriculteurs, projets pilotes et gestion du gaspillage."@en ;
+    core:hasTag "Composting"@en,
+        "Food Waste"@en .
+
+<http://example.org/opportunity/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf_c22_5> a core:Opportunity ;
+    rdfs:label "Aids for productive investments (intervention 351)"@en,
+        "Aides aux investissements productifs (intervention 351)"@fr ;
+    core:definedBy <http://example.org/doc/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf> ;
+    core:description "Aides aux investissements dans les exploitations agricoles pour valoriser les biodéchets via biométhanisation (production <10kW), avec majorations pour bio et bien-être animal."@en ;
+    core:hasTag "Biomethanisation"@en,
+        "Investment"@en,
+        "Organic"@en ;
+    core:requiresCriterion "{'variable': 'production', 'operator': '<', 'value': '10 kW'}" .
+
+<http://example.org/opportunity/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf_c22_6> a core:Opportunity ;
+    rdfs:label "UDE Scheme"@en,
+        "Régime UDE"@fr ;
+    core:definedBy <http://example.org/doc/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf> ;
+    core:description "Régime d’aides à l’investissement pour entreprises investissant en biométhanisation (production >10kW)."@en ;
+    core:hasTag "Biomethanisation"@en,
+        "Energy"@en,
+        "Investment"@en ;
+    core:requiresCriterion "{'variable': 'production', 'operator': '>', 'value': '10 kW'}" .
+
+<http://example.org/opportunity/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf_c22_7> a core:Opportunity ;
+    rdfs:label "Support for organic farming (intervention 321)"@en,
+        "Soutien à l'agriculture biologique (intervention 321)"@fr ;
+    core:definedBy <http://example.org/doc/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf> ;
+    core:description "Soutien à la conversion et au maintien de l'agriculture biologique, visant 11,31% de SAU bénéficiant d'aide en 2027."@en ;
+    core:hasTag "Organic"@en .
+
+<http://example.org/opportunity/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf_c22_8> a core:Opportunity ;
+    rdfs:label "Support for differentiated quality schemes (QD)"@en,
+        "Soutien aux régimes de qualité différenciée (QD)"@fr ;
+    core:definedBy <http://example.org/doc/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf> ;
+    core:description "Encourager les agriculteurs à participer aux produits de qualité différenciée, ancrés territorialement et respectueux de l'environnement et bien-être animal."@en ;
+    core:hasTag "Animal Welfare"@en,
+        "Environment"@en,
+        "Quality"@en .
+
+<http://example.org/opportunity/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf_c22_9> a core:Opportunity ;
+    rdfs:label "Eco-scheme reduction of inputs"@en,
+        "Écorégime réduction d’intrants"@fr ;
+    core:definedBy <http://example.org/doc/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf> ;
+    core:description "Intervention cofinancée par FEADER pour réduction d’intrants, soutenant la sensibilisation à l’alimentation saine."@en ;
+    core:hasTag "Input Reduction"@en .
+
+<http://example.org/opportunity/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf_c23_0> a core:Opportunity ;
+    rdfs:label "Aid for productive investments in agricultural holdings"@en,
+        "Aides aux investissements productifs dans les exploitations agricoles"@fr ;
+    core:definedBy <http://example.org/doc/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf> ;
+    core:description "Aides aux investissements, y compris dans l'irrigation, pour les exploitations agricoles."@en ;
+    core:hasTag "Investment"@en,
+        "Irrigation"@en .
+
+<http://example.org/opportunity/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf_c23_1> a core:Opportunity ;
+    rdfs:label "Aid for investments in forestry works enterprises and forest management enterprises"@en,
+        "Aides aux investissements pour les entreprises de travaux forestiers et pour les entreprises d’exploitation forestière"@fr ;
+    core:definedBy <http://example.org/doc/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf> ;
+    core:description "Aides aux investissements dans les infrastructures pour les entreprises forestières (première transformation du bois)."@en ;
+    core:hasTag "Forestry"@en,
+        "Investment"@en .
+
+<http://example.org/opportunity/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf_c23_2> a core:Opportunity ;
+    rdfs:label "Investments in the processing/marketing of agricultural products and non-agricultural diversification"@en,
+        "Investissements dans le secteur de la transformation/commercialisation des produits agricoles et dans la diversification non agricole"@fr ;
+    core:definedBy <http://example.org/doc/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf> ;
+    core:description "Aides aux investissements productifs en dehors des exploitations agricoles, incluant transformation et diversification."@en ;
+    core:hasTag "Diversification"@en,
+        "Investment"@en,
+        "Processing"@en .
+
+<http://example.org/opportunity/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf_c23_3> a core:Opportunity ;
+    rdfs:label "Project 198 - Subsidies for small-scale infrastructures and emerging sectors"@en,
+        "Projet 198 - Subventions pour infrastructures à petite échelle et filières émergentes"@fr ;
+    core:definedBy <http://example.org/doc/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf> ;
+    core:description "Subventionner 30 infrastructures à petite échelle et quatre filières émergentes (fruits, légumes, céréales et protéines) pour production, stockage, transformation et commercialisation locale."@en ;
+    core:hasTag "Cereals"@en,
+        "Fruits"@en,
+        "Investment"@en,
+        "Proteins"@en,
+        "Vegetables"@en .
+
+<http://example.org/opportunity/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf_c23_4> a core:Opportunity ;
+    rdfs:label "Project 200 - Key infrastructures for sustainable agri-food sector"@en,
+        "Projet 200 - Infrastructures névralgiques pour filière agroalimentaire durable"@fr ;
+    core:definedBy <http://example.org/doc/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf> ;
+    core:description "Construire 5 infrastructures pour déploiement de la filière agroalimentaire durable."@en ;
+    core:hasTag "Agroalimentaire"@en,
+        "Investment"@en .
+
+<http://example.org/opportunity/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf_c23_5> a core:Opportunity ;
+    rdfs:label "Project 205 - Support for diversification through renewable energies"@en,
+        "Projet 205 - Soutien à la diversification par énergies renouvelables"@fr ;
+    core:definedBy <http://example.org/doc/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf> ;
+    core:description "Soutenir la diversification par les énergies renouvelables."@en ;
+    core:hasTag "Diversification"@en,
+        "Renewable Energy"@en .
+
+<http://example.org/opportunity/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf_c25_0> a core:Opportunity ;
+    rdfs:label "Permanent Grasslands Conditioned to Stocking Rate"@en,
+        "Prairies permanentes conditionnées à la charge"@fr ;
+    core:definedBy <http://example.org/doc/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf> ;
+    core:description "Voluntary eco-scheme to maintain permanent grassland areas and carbon stocks, with a component for reducing livestock stocking rates to lower GHG emissions."@en ;
+    core:hasTag "Carbon storage"@en,
+        "Climate"@en,
+        "Grassland"@en,
+        "Livestock"@en .
+
+<http://example.org/opportunity/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf_c25_1> a core:Opportunity ;
+    rdfs:label "Long Soil Cover"@en,
+        "Couverture longue du sol"@fr ;
+    core:definedBy <http://example.org/doc/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf> ;
+    core:description "Voluntary eco-scheme promoting long cover crops, intercultures, and winter or temporary grassland rotations to enhance carbon storage and soil protection."@en ;
+    core:hasTag "Carbon storage"@en,
+        "Climate"@en,
+        "Erosion"@en,
+        "Soil"@en .
+
+<http://example.org/opportunity/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf_c25_2> a core:Opportunity ;
+    rdfs:label "Ecological Network"@en,
+        "Maillage écologique"@fr ;
+    core:definedBy <http://example.org/doc/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf> ;
+    core:description "Voluntary eco-scheme encouraging maintenance of extensive grasslands, woody landscape elements, and ecological connectivity to support biodiversity and carbon storage."@en ;
+    core:hasTag "Biodiversity"@en,
+        "Carbon storage"@en,
+        "Erosion"@en,
+        "Landscape elements"@en .
+
+<http://example.org/opportunity/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf_c25_3> a core:Opportunity ;
+    rdfs:label "Environmentally Favourable Crops"@en,
+        "Cultures favorables à l’environnement"@fr ;
+    core:definedBy <http://example.org/doc/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf> ;
+    core:description "Voluntary eco-scheme supporting resilient crops like quinoa, buckwheat, sorghum, and forage legumes to reduce inputs, GHG emissions, and enhance soil quality."@en ;
+    core:hasTag "Biodiversity"@en,
+        "Legumes"@en,
+        "Low inputs"@en,
+        "Soil"@en .
+
+<http://example.org/opportunity/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf_c25_4> a core:Opportunity ;
+    rdfs:label "Input Reduction"@en,
+        "Réduction d’intrants"@fr ;
+    core:definedBy <http://example.org/doc/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf> ;
+    core:description "Voluntary eco-scheme banning certain phytosanitary products to reduce GHG emissions, improve soil cycles, and promote climate-adapted alternative crops."@en ;
+    core:hasTag "Climate"@en,
+        "Low inputs"@en,
+        "Pesticides"@en,
+        "Soil"@en .
+
+<http://example.org/opportunity/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf_c25_5> a core:Opportunity ;
+    rdfs:label "Support for Organic Farming"@en,
+        "Soutien à l’agriculture biologique"@fr ;
+    core:definedBy <http://example.org/doc/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf> ;
+    core:description "Intervention providing support to organic agriculture, reducing mineral fertilizers and livestock density to lower N2O and methane emissions while improving soil sequestration."@en ;
+    core:hasTag "GHG reduction"@en,
+        "Low inputs"@en,
+        "Organic"@en,
+        "Soil"@en .
+
+<http://example.org/opportunity/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf_c25_6> a core:Opportunity ;
+    rdfs:label "Aids for Productive Investments in Agricultural Holdings"@en,
+        "Aides aux investissements productifs dans les exploitations agricoles"@fr ;
+    core:definedBy <http://example.org/doc/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf> ;
+    core:description "Grants for energy-saving investments, renewable energy production, biomethanisation, precision agriculture, and effluent management equipment."@en ;
+    core:hasTag "Biomethanisation"@en,
+        "Energy efficiency"@en,
+        "Investment"@en,
+        "Renewables"@en .
+
+<http://example.org/opportunity/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf_c25_7> a core:Opportunity ;
+    rdfs:label "Aids for Non-Productive Investments in Agricultural Holdings"@en,
+        "Aides aux investissements non productifs dans les exploitations agricoles"@fr ;
+    core:definedBy <http://example.org/doc/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf> ;
+    core:description "Grants for soft hydraulic structures like ditches, filtering dams, retention basins to reduce runoff, flooding, and improve water infiltration."@en ;
+    core:hasTag "Climate adaptation"@en,
+        "Erosion"@en,
+        "Hydraulic works"@en,
+        "Investment"@en .
+
+<http://example.org/opportunity/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf_c26_0> a core:Opportunity ;
+    rdfs:label "Payments under Natura 2000 in agricultural and forest areas"@en,
+        "Paiements au titre de Natura 2000 en zone agricole et en forêt"@fr ;
+    core:definedBy <http://example.org/doc/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf> ;
+    core:description "Indemnifies farmers and foresters for constraints due to integration into the Natura 2000 network."@en ;
+    core:hasTag "Biodiversity"@en,
+        "Natura 2000"@en .
+
+<http://example.org/opportunity/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf_c26_1> a core:Opportunity ;
+    rdfs:label "MAEC 'High Biological Value Meadows' (PNHVB)"@en,
+        "MAEC « Prairies à haute valeur biologique » (PNHVB)"@fr ;
+    core:definedBy <http://example.org/doc/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf> ;
+    core:description "Preserves and enhances high biodiversity meadows through optimal management practices adapted to Natura 2000 habitats."@en ;
+    core:hasTag "Biodiversity"@en,
+        "Natura 2000"@en,
+        "Prairies"@en .
+
+<http://example.org/opportunity/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf_c26_10> a core:Opportunity ;
+    rdfs:label "MAEC 'Agroenvironmental Action Plan' (Plan AE)"@en,
+        "MAEC « Plan d'action agroenvironnemental » (Plan AE)"@fr ;
+    core:definedBy <http://example.org/doc/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf> ;
+    core:description "Global method addressing multiple environmental objectives through tailored practices."@en ;
+    core:hasTag "Agroenvironmental"@en .
+
+<http://example.org/opportunity/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf_c26_11> a core:Opportunity ;
+    rdfs:label "MAEC 'Threatened Local Breeds Animals' (AnRLM)"@en,
+        "MAEC « Animaux de races locales menacées » (AnRLM)"@fr ;
+    core:definedBy <http://example.org/doc/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf> ;
+    core:description "Preserves local breeds adapted to extensive farming systems supporting ecosystems."@en ;
+    core:hasTag "Livestock"@en,
+        "Local Breeds"@en .
+
+<http://example.org/opportunity/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf_c26_12> a core:Opportunity ;
+    rdfs:label "Coupled support for sheep"@en,
+        "Soutien couplé aux ovins"@fr ;
+    core:definedBy <http://example.org/doc/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf> ;
+    core:description "Supports grazing of sheep on low-quality meadows to favor biodiversity."@en ;
+    core:hasTag "Livestock"@en,
+        "Sheep"@en .
+
+<http://example.org/opportunity/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf_c26_13> a core:Opportunity ;
+    rdfs:label "Coupled support for protein crops"@en,
+        "Soutien couplé aux protéagineux"@fr ;
+    core:definedBy <http://example.org/doc/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf> ;
+    core:description "Encourages protein crops for fodder autonomy and reduced imports."@en ;
+    core:hasTag "Protein Crops"@en .
+
+<http://example.org/opportunity/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf_c26_14> a core:Opportunity ;
+    rdfs:label "MAEC 'Fodder Autonomy'"@en,
+        "MAEC « Autonomie fourragère »"@fr ;
+    core:definedBy <http://example.org/doc/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf> ;
+    core:description "Promotes low livestock density on permanent meadows for biodiversity."@en ;
+    core:hasTag "Fodder"@en,
+        "Livestock"@en .
+
+<http://example.org/opportunity/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf_c26_2> a core:Opportunity ;
+    rdfs:label "MAEC 'Natural Meadows' (PN)"@en,
+        "MAEC « Prairies Naturelles » (PN)"@fr ;
+    core:definedBy <http://example.org/doc/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf> ;
+    core:description "Preserves biodiversity in natural meadows by delaying mowing dates and prohibiting phytosanitary products."@en ;
+    core:hasTag "Biodiversity"@en,
+        "Prairies"@en .
+
+<http://example.org/opportunity/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf_c26_3> a core:Opportunity ;
+    rdfs:label "Non-productive investment aids in rural areas (restoration of sites in SEP including Natura 2000)"@en,
+        "Aides aux investissements non productifs en zone rurale (restauration de sites en zone SEP dont Natura 2000)"@fr ;
+    core:definedBy <http://example.org/doc/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf> ;
+    core:description "Supports restoration and management of typical habitats in the Principal Ecological Structure (SEP) including Natura 2000."@en ;
+    core:hasTag "Biodiversity"@en,
+        "Investment"@en,
+        "Natura 2000"@en,
+        "Restoration"@en .
+
+<http://example.org/opportunity/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf_c26_4> a core:Opportunity ;
+    rdfs:label "Support for organic agriculture"@en,
+        "Soutien à l’agriculture biologique"@fr ;
+    core:definedBy <http://example.org/doc/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf> ;
+    core:description "Promotes organic farming by prohibiting synthetic phytopharmaceuticals and mineral fertilizers, enhancing biodiversity."@en ;
+    core:hasTag "Biodiversity"@en,
+        "Organic"@en .
+
+<http://example.org/opportunity/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf_c26_5> a core:Opportunity ;
+    rdfs:label "Non-productive investment aids in agricultural holdings"@en,
+        "Aides aux investissements non productifs dans les exploitations agricoles"@fr ;
+    core:definedBy <http://example.org/doc/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf> ;
+    core:description "Supports restoration of wetlands and creation of new humid areas to strengthen the ecological network."@en ;
+    core:hasTag "Investment"@en,
+        "Wetlands"@en .
+
+<http://example.org/opportunity/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf_c26_6> a core:Opportunity ;
+    rdfs:label "Eco-scheme 'Reduction of Inputs' (RDI)"@en,
+        "Éco-régime « Réduction d’intrants » (RDI)"@fr ;
+    core:definedBy <http://example.org/doc/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf> ;
+    core:description "Reduces use of certain phytosanitary products to protect biodiversity and resources."@en ;
+    core:hasTag "Inputs Reduction"@en,
+        "Pesticides"@en .
+
+<http://example.org/opportunity/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf_c26_7> a core:Opportunity ;
+    rdfs:label "Eco-scheme 'Premiums for permanent meadows' (PP)"@en,
+        "Éco-régime « Primes à la prairie permanente » (PP)"@fr ;
+    core:definedBy <http://example.org/doc/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf> ;
+    core:description "Encourages maintenance of permanent meadows and reduction of livestock density."@en ;
+    core:hasTag "Permanent Meadows"@en,
+        "Prairies"@en .
+
+<http://example.org/opportunity/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf_c26_8> a core:Opportunity ;
+    rdfs:label "Eco-scheme 'Environmentally friendly crops' (CFE)"@en,
+        "Éco-régime « Cultures favorables à l'environnement » (CFE)"@fr ;
+    core:definedBy <http://example.org/doc/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf> ;
+    core:description "Promotes diverse rotations, low-input crops, and melliferous species without insecticides."@en ;
+    core:hasTag "Crops"@en,
+        "Melliferous"@en,
+        "Rotation"@en .
+
+<http://example.org/opportunity/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf_c26_9> a core:Opportunity ;
+    rdfs:label "Eco-scheme 'Long soil cover' (CLS)"@en,
+        "Éco-régime « Couverture longue du sol » (CLS)"@fr ;
+    core:definedBy <http://example.org/doc/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf> ;
+    core:description "Encourages extended soil coverage to protect and enrich soils, benefiting wintering wildlife."@en ;
+    core:hasTag "Soil Cover"@en .
+
 <http://example.org/opportunity/be/wal/plan_stratégique_wallon_pac_version_4_2_pdf_c2_0> a core:Opportunity ;
     rdfs:label "CIS-YF - Complementary income support for young farmers"@en,
         "CIS-YF(30) - Aide complémentaire au revenu pour les jeunes agriculteurs"@fr ;
